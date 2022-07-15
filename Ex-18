@@ -1,0 +1,9 @@
+var num = Number(prompt(`Digite um número para ver sua tabuada.`));
+
+var i = 1
+
+console.log(`Tabuada do número ${num}`)
+while(i<=10) {
+console.log(num + "X" + i + " = " + (num * i));
+i++;
+}
